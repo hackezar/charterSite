@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 import styles from "./Video.module.css";
-import Vid1 from "../assets/videos/video1.mp4";
-import Vid2 from "../assets/videos/video2.mp4";
-import Vid3 from "../assets/videos/video3.mp4";
-import Vid4 from "../assets/videos/video4.mp4";
+import Vid1 from "../assets/videos/boatVideo.mp4";
+import Vid2 from "../assets/videos/fishingRod.mp4";
+import Vid3 from "../assets/videos/boatsMoving.mp4";
+import Vid4 from "../assets/videos/underwater.mp4";
 
 
 const Video = () => {

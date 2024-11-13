@@ -1,7 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Video from "../Video/Video"
 import AddressBar from "../AddressBar/AddressBar"
-import PartiesSection from "./PartiesSection/PartiesSection";
+import ServicesSection from "./ServicesSection/ServicesSection";
 import LinksSlider from "./ImageSlider/ImageSlider";
 import ReservationSection from "./ReservationsSection/ReservationsSection";
 import Gallery from "./Gallery/Gallery";
@@ -20,12 +20,11 @@ const LandingPage = () => {
         <div className={styles.landingPageDiv}>
             <Navbar />
             <Video />
+            <About />
             <AddressBar />
-            <PartiesSection />
-            <LinksSlider />
+            <ServicesSection />
             <ReservationSection />
             <Gallery />
-            <About />
             <Reviews />
             <div className={styles.newsLetterMapDiv}>
                 <Newsletter />

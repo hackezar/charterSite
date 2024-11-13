@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 import "../../assets/fonts/BaskervvilleSC-Regular.ttf"
 
 
-import AboutPic from "../../assets/aboutPic.jpg";
+import AboutPic from "../../assets/aboutUsImg.jpg";
 
 const About = () => {
     return (
@@ -13,10 +13,11 @@ const About = () => {
             <div className={styles.rightSide}>
                 <div className={styles.insideDiv}>
                     <p className={styles.header1}>ABOUT US</p>
-                    <p className={styles.header2}>An American Scratch Kitchen + Bar</p>
-                    <p className={styles.bio}>The menu highlights items from both land and sea, with a focus on bringing unique flavors from the kitchen to your table. We look to our exceptional collaboration with local artisans, farmers and foragers to serve the best seasonal and locally produced dairy, vegetables, grains, seafood and shellfish. </p>
-                    <p className={styles.bio}>We understand that at the heart of any tavern is its beer selection. With 20 beers (many regionally crafted), 4 wines, and 2 cocktails on tap, along with an extensive wine and cocktail list, Stillwaters Tavern certainly lives up to its name.
-                    Ideally located on Beach Drive with access to waterfront views, Stillwaters Tavern invites you to partake in the lighthearted ambiance as we deliver some of the most creative food being served in Tampa Bay. Our patio offers a clear view of the NEW iconic St. Pete Pier, gorgeous Tampa Bay and bustling Beach Drive. St. Pete has again been named the #1 Mid-Size Arts City in the nation, and Stillwaters Tavern is within blocks of the Chihuly Exhibit, Museum of Fine Arts, The James Museum of Western & Wildlife Art, the Museum of the American Arts and Crafts Movement, and the Dali Museum. </p>
+                    <p/>
+                    <p className={styles.bio}>
+                    Kenwood Fishing Charters was started in 1982 in downtown Annapolis. It is one of the oldest fishing companies around, started by the late Joe Richardson. I Dorothy Tuohey have taken it to the next level of operations. I have been a captain in Annapolis for 45 years working on boats from 20 to 400 feet. Annapolis fishing charters is located at the marina called WP Nautical or for some people the Trumpy Yard. This where they built Trumpy yachts in the ‘30s
+                    We are located next to the Chart house restaurant. We are an easy commute from Washington DC or Baltimore. Come fish in the morning and go sightseeing in the afternoon.
+                    </p>
                     <button className={styles.moreBtn} type="button">READ MORE</button>
                 </div>
             </div>
